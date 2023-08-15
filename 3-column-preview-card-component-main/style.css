@@ -1,5 +1,111 @@
-.sedan{
-    /* width: 30%;
-    height: 70%; */
-    background-color: aqua;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+.sedan {
+  width: 30rem;
+  height: 40rem;
+  background-color: hsl(31, 77%, 52%);
+}
+.sedan p {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: left;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+.sedan h1 {
+  color: hsl(0, 0%, 95%);
+  padding-top: 1rem;
+  padding-left: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+}
+.sedan img {
+  padding: 2rem;
+}
+.sedan button {
+  padding: 1rem 2rem;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border: none;
+  border-radius: 2rem;
+}
+.suv {
+  width: 30rem;
+  height: 40rem;
+  background-color: hsl(184, 100%, 22%);
+}
+.suv p {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: left;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+.suv h1 {
+  color: hsl(0, 0%, 95%);
+  padding-top: 1rem;
+  padding-left: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+}
+.suv img {
+  padding: 2rem;
+}
+.suv button {
+  padding: 1rem 2rem;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border: none;
+  border-radius: 2rem;
+}
+.luxury {
+  width: 30rem;
+  height: 40rem;
+  background-color: hsl(179, 100%, 13%);
+}
+.luxury p {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: left;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+.luxury h1 {
+  color: hsl(0, 0%, 95%);
+  padding-top: 1rem;
+  padding-left: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+}
+.luxury img {
+  padding: 2rem;
+}
+.luxury button {
+  padding: 1rem 2rem;
+  background-color: hsl(0, 0%, 95%);
+  color:  hsl(179, 100%, 13%);
+  border: none;
+  border-radius: 2rem;
+}
+a {
+  padding: 2rem ;
+}
+.threegrids {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 15rem 20rem;
+}
+p {
+  padding-bottom: 10rem;
+  padding-top: 2rem;
+  line-height: 2rem;
 }
